@@ -1,0 +1,31 @@
+name: Stockings
+main: cn.xiaokai.stockings.Stockings
+api:
+- 1.0.0
+version: 1.0.0
+load: POSTWORLD
+website: http://EpicFX.cn
+description: 超级无敌宇宙史诗聊天插奸
+author: Winfxk
+commands:
+   sadmk:
+      description: §称号插件§7管理§9命令
+      usage: §b/§6sadmk §chelp
+      permission: Stockings.Command.Admin
+      aliases:
+      - sadmink
+      - sak
+   sk:
+      description: §称号插件§7玩家§9命令
+      usage: §b/§6sk §chelp
+      permission: Stockings.Command.Main
+      aliases:
+      - stockings
+      - 称号
+permissions:
+   Stockings.Command.Main:
+      description: §称号插件§7玩家§9命令
+      default: true
+   Stockings.Command.Admin:
+      description: §称号插件§7管理§9命令
+      default: op
